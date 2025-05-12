@@ -5,7 +5,7 @@ const BoxProfile = ({ picture, name, onClick }) => {
       onClick={onClick}
     >
       <img src={picture} className="h-8 w-8 rounded-full object-cover" />
-      <p className="text-sm font-semibold text-(--text-color-black)">{name}</p>
+      <p className="text-sm font-semibold text-(--bg-primary-cray)">{name}</p>
       <i className="fa fa-chevron-right rotate-90 text-(--bg-primary-cray)"></i>
     </button>
   );

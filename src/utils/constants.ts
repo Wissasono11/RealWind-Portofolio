@@ -1,6 +1,6 @@
 export const listSkills = [
   {
-    name: "javaScript",
+    name: "JavaScript",
     icon: "/icons/js.png",
     link: "https://www.javascript.com/",
   },
@@ -98,7 +98,7 @@ export const listSkills = [
 ];
 
 export const listIndustries = [
-  { name: "facabook", icon: "/icons/facebook.png" },
+  { name: "facebook", icon: "/icons/facebook.png" },
   { name: "google", icon: "/icons/google.png" },
   { name: "tokopedia", icon: "/icons/tokopedia.png" },
   { name: "amazon", icon: "/icons/amazon.png" },
@@ -122,7 +122,7 @@ export const listProjects = [
     list_tech: [
       { name: "React", icon: "/icons/react.svg" },
       { name: "Tailwind", icon: "/icons/tailwind.png" },
-      { name: "javaScript", icon: "/icons/js.png" },
+      { name: "JavaScript", icon: "/icons/js.png" },
     ],
   },
 ];

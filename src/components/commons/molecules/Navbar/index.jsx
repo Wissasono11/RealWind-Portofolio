@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import BoxLanguege from "../../atoms/BoxLanguage";
+import BoxLanguage from "../../atoms/BoxLanguage";
 import BoxProfile from "../../atoms/BoxProfile";
 import SearchInput from "../../atoms/SearchInput";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          <BoxLanguege setTranslate={setTranslate} translate={translate} />
+          <BoxLanguage setTranslate={setTranslate} translate={translate} />
         </section>
 
         <section className="flex items-center justify-between gap-2 max-md:hidden">
@@ -44,9 +44,9 @@ const Navbar = () => {
           />
 
           <BoxProfile
-            name={`Aiden R. Vale`}
+            name={`Bayu Wic`}
             onClick={() => console.log("profile")}
-            picture={`/images/dea-afrizal-about.png`}
+            picture={`/images/bayu-wic-about.jpg`}
           />
         </section>
       </header>

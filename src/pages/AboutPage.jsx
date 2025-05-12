@@ -32,7 +32,6 @@ const AboutPage = () => {
           I'm always exploring new frontiers in web animation, motion design,
           and frontend architecture. Let’s build something awesome together.
         </p>
-
         <BoxSocial />
       </div>
     </section>

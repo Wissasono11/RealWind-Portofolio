@@ -31,14 +31,14 @@ const HeroDetail = () => {
     <>
       <section className="flex max-md:flex-col-reverse">
         <div className="w-[60%] text-left text-(--text-color-black) max-xl:w-[50%] max-md:mt-8 max-md:w-full">
-          <p>Aiden R. Vale</p>
+          <p>Bayu Wicaksono</p>
 
           <div className="flex gap-8 max-xl:flex-col">
             <div>
-              <h3 className="font-barlow max-w-[370px] text-4xl leading-7 font-bold max-xl:w-[300px] max-xl:text-3xl">
+              <h3 className="text-left font-barlow max-w-[490px] text-5xl leading-12 font-bold mt-4 max-xl:w-[300px] max-xl:text-3xl max-xl:leading-8">
                 Empowering Digital Experiences Through Frontend Development
               </h3>
-              <p className="text-md mt-4 max-w-[300px] leading-4 font-light">
+              <p className="text-md text-left mt-4 max-w-[400px] leading-5 font-light ">
                 I’m a front-end web developer with a strong design sensibility,
                 dedicated to transforming creative concepts into responsive,
                 high-performance websites. From interactive UI/UX interfaces to
@@ -49,38 +49,36 @@ const HeroDetail = () => {
             </div>
 
             <div className="max-w-[200px]">
-              <p className="text-sm font-bold">
-                <span className="text-xl">+62K</span> Lines of Code & Counting
+              <p className="text-sm font-bold mb-1 mt-4">
+                <span className="text-xl">+31K</span> Lines of Code & Counting
               </p>
-              <p className="text-sm leading-4">
+              <p className="text-sm leading-5">
                 Collaborated with clients across tech, gaming, and creative
                 industries to build modern, responsive websites. Merging design
                 precision with clean, scalable code to deliver exceptional
                 frontend solutions.
               </p>
 
-              <div className="mt-1 flex">
+              <div className="mt-2 flex">
                 {listIndustries.map((item, index) => (
                   <RoundedImg key={index} src={item.icon} index={index} />
                 ))}
-
                 <RoundedImg key={1} text="MORE" index={1} />
               </div>
             </div>
           </div>
 
-          <div className="mt-4 flex items-center justify-between gap-4">
+          <div className="mt-2 flex items-center justify-between gap-4">
             <div className="mt-6">
               <button
-                className="cursor-pointer rounded-full border-2 border-(--bg-secondary-cray) px-4 py-2 hover:bg-(--bg-secondary-cray)"
+                className="cursor-pointer rounded-full border-2 border-(--bg-secondary-cray) px-6 py-3 hover:bg-(--bg-secondary-cray)"
                 onClick={() => {
                   window.location.href =
-                    "mailto:your_email@example.com?subject=Subject&body=message%20goes%20here";
+                    "mailto:bayuwicaksono782@gmail.com?subject=Subject&body=message%20goes%20here";
                 }}
               >
                 Discover More
               </button>
-
               <BoxSocial />
             </div>
 
